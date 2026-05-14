@@ -1,0 +1,45 @@
+body {
+    background-color: #0d1117; /* GitHub Dark Theme */
+    color: #c9d1d9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+header {
+    padding: 50px 0;
+    background: linear-gradient(180deg, #161b22 0%, #0d1117 100%);
+}
+
+.danger-text {
+    color: #ff4d4d;
+    text-shadow: 0 0 10px #ff4d4d;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.card {
+    background: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    border-color: #ff4d4d;
+    transform: translateY(-5px);
+}
+
+footer {
+    margin-top: 50px;
+    font-size: 0.8rem;
+    color: #8b949e;
+}
